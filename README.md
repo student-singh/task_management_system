@@ -176,3 +176,26 @@ curl -X POST http://localhost:3000/api/tasks \
 
 ---
 
+## Testing using postman
+
+<img width="1920" height="1020" alt="Screenshot 2025-11-30 123116" src="https://github.com/user-attachments/assets/c6c0f244-bd8a-410b-8bb8-bce75f9e85be" />
+
+<img width="1920" height="1020" alt="Screenshot 2025-11-30 123118" src="https://github.com/user-attachments/assets/06e9da00-d6d3-4361-bed6-177e77c2b63e" />
+
+<img width="1920" height="1020" alt="Screenshot 2025-11-30 123437" src="https://github.com/user-attachments/assets/8828eb79-1516-41a3-abb9-03742402c7ad" />
+
+<img width="1920" height="1020" alt="Screenshot 2025-11-30 123438" src="https://github.com/user-attachments/assets/fec767ed-87a2-4730-83c4-58b3d45ca8d7" />
+
+<img width="1920" height="1020" alt="Screenshot 2025-11-30 123611" src="https://github.com/user-attachments/assets/4050250a-6670-49c6-8eeb-2ef0479abec7" />
+
+<img width="1920" height="1020" alt="Screenshot 2025-11-30 123839" src="https://github.com/user-attachments/assets/8388a403-0ea6-4ba5-afdb-71e069e6ea38" />
+
+<img width="1920" height="1020" alt="Screenshot 2025-11-30 124358" src="https://github.com/user-attachments/assets/97989a8a-c6d6-4311-866b-ad7cb11f2e63" />
+
+<img width="1920" height="1020" alt="Screenshot 2025-11-30 124359" src="https://github.com/user-attachments/assets/de0a21fe-1505-4672-ae8a-ed6f6028985d" />
+
+<img width="1920" height="1020" alt="Screenshot 2025-11-30 124518" src="https://github.com/user-attachments/assets/b35c487a-6d1d-4129-a078-ffd54905b0a2" />
+
+<img width="1920" height="1020" alt="Screenshot 2025-11-30 124638" src="https://github.com/user-attachments/assets/0728a6dc-d0f2-423b-8fd7-3630c28f87be" />
+
+<img width="1920" height="1020" alt="Screenshot 2025-11-30 124743" src="https://github.com/user-attachments/assets/55613a2e-88e5-4ae7-a4d9-bd58d684245a" />
