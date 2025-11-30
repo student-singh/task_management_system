@@ -1,0 +1,31 @@
+<%- include('../partials/header') %>
+<h2>Tasks <%= Object.keys(filter).length > 0 ? `(Filtered)` : '' %></h2>
+<form method="GET" style="margin-bottom: 20px;">
+  <select name="status">
+    <option value="">All Status</option>
+    <option value="Pending" <%= filter.status === 'Pending' ? 'selected' : '' %>>Pending</option>
+    <option value="In Progress" <%= filter.status === 'In Progress' ? 'selected' : '' %>>In Progress</option>
+    <option value="Completed" <%= filter.status === 'Completed' ? 'selected' : '' %>>Completed</option>
+  </select>
+  <select name="employeeId">
+    <option value="">All Employees</option>
+    <% employees.forEach(emp => { %>
+      <option value="<%= emp._id %>" <%= filter.employeeId == emp._id ? 'selected' : '' %>><%= emp.name %></option>
+    <% }) %>
+  </select>
+  <button type="submit">Filter</button>
+</form>
+<a href="/api/tasks/view/create">Create New Task</a>
+<table>
+  <tr><th>ID</th><th>Title</th><th>Description</th><th>Status</th><th>Employee</th></tr>
+  <% tasks.forEach(task => { %>
+    <tr>
+      <td><%= task._id %></td>
+      <td><%= task.title %></td>
+      <td><%= task.description %></td>
+      <td><%= task.status %></td>
+      <td><%= task.employeeId.name %></td>
+    </tr>
+  <% }) %>
+</table>
+<%- include('../partials/footer') %>
